@@ -173,3 +173,5 @@ for sublist in my_list:
     sublist.append(sum(sublist))
 
 print(my_list)
+
+# kész
