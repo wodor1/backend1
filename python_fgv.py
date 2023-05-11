@@ -80,3 +80,26 @@ if sugar is not None:
     kerulet = kor_kerulete(sugar)
     print(f"A kör területe: {terulet}")
     print(f"A kör kerülete: {kerulet}")
+
+# ötödik feladat
+
+
+def split_list(names):
+    names = sorted(names)
+    mid = len(names) // 2
+    group1 = names[:mid]
+    group2 = names[mid:]
+
+    print("1. csoport:")
+    for name in group1:
+        print(name)
+
+    print("2. csoport:")
+    for name in group2:
+        print(name)
+
+
+names = ['Gaál Bernadett', 'Szamosi Judit', 'Tóth Sára', 'Magyar Eszter', 'Gaál András', 'Németh Diána',
+         'Telek Éva', 'Ledán-Munteán Szabolcs', 'Mészáros Melinda', 'Lukács Dániel', 'Kucsera Bálint', 'Kovács Tamás']
+
+split_list(names)
